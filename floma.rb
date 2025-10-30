@@ -6,25 +6,25 @@
 class Floma < Formula
   desc "AI-Powered Workflow Automation Tool - No Code Required"
   homepage "https://getfloma.com"
-  version "0.3.0"
+  version "0.3.2"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-macos-arm64"
-      sha256 "22b3ef6418737883192b17162a2c89d454b906c284acfa403f071974f7e8fc22"
+      sha256 "b27a06c48fa25aab5de1881beb20871efd9d00cf0270b8bd830916f02e691171"
     else
       url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-macos-x86_64"
-      sha256 "PLACEHOLDER_MACOS_INTEL_SHA256"  # Will be updated after build
+      sha256 "3b16fa3a71db612d50962337bee55e594e6a68e95ba8fb9e13dd18dd46cc5e31"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-linux-arm64"
-      sha256 "PLACEHOLDER_LINUX_ARM64_SHA256"  # Will be updated after build
+      sha256 "43bdf4124d24adc5d1f68bc3c8f5e4aa6673d464950a70af1793a43e8264117c"
     else
       url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-linux-x86_64"
-      sha256 "PLACEHOLDER_LINUX_X86_64_SHA256"  # Will be updated after build
+      sha256 "964824f0fc206f104e2206deecb118b85756de37466498e54903e1e8e3ae947b"
     end
   end
 
