@@ -9,7 +9,7 @@ class Floma < Formula
   version "0.3.0"
 
   # Download URL for macOS ARM64 binary
-  url "https://github.com/AdityaT248/releo/releases/download/v0.3.0/floma-macos-arm64"
+  url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-macos-arm64"
 
   # SHA256 checksum
   sha256 "22b3ef6418737883192b17162a2c89d454b906c284acfa403f071974f7e8fc22"
