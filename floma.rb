@@ -8,9 +8,6 @@ class Floma < Formula
   homepage "https://getfloma.com"
   version "0.3.2"
 
-  # Pre-built binary, no compilation needed - skip Xcode/build tool checks
-  bottle :unneeded
-
   on_macos do
     if Hardware::CPU.arm?
       url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-macos-arm64"
@@ -31,6 +28,7 @@ class Floma < Formula
     end
   end
 
+  # Pre-built binary - no compilation needed
   def install
     # Determine the binary name based on platform
     if OS.mac?
@@ -40,6 +38,10 @@ class Floma < Formula
     end
 
     bin.install binary_name => "floma"
+  end
+
+  def pour_bottle?
+    false
   end
 
   test do
