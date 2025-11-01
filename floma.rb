@@ -10,20 +10,20 @@ class Floma < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-macos-arm64"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.12/floma-macos-arm64"
       sha256 "5de37ba57855568fd7872feb495bba21ac9719c4b278a7540c2c05b5e133068f"
     else
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-macos-x86_64"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.12/floma-macos-x86_64"
       sha256 "50f8d664915dafb95ddc49398a1b0b1e33db1a681b0de108c91e185f0e3fbdcb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-linux-arm64"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.12/floma-linux-arm64"
       sha256 "057727b900072b58c4b1f4bd5a5bdee81005aa04d56d449b15134b160447710c"
     else
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/floma-linux-x86_64"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.12/floma-linux-x86_64"
       sha256 "ed4ba2628f54c6ba7270a67c4787687f3391232c63a32bf834da900c2cf01a20"
     end
   end
