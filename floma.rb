@@ -59,6 +59,9 @@ class Floma < Formula
 
       Documentation: https://getfloma.com/docs
 
+      Updating Floma:
+        brew update && brew upgrade floma
+
       Note: Free tier includes 5 AI extractions/month
             Upgrade at https://getfloma.com for more features
     EOS
