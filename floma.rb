@@ -6,25 +6,25 @@
 class Floma < Formula
   desc "AI-Powered Workflow Automation Tool - No Code Required"
   homepage "https://getfloma.com"
-  version "0.3.14"
+  version "0.3.15"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.14/floma-macos-arm64"
-      sha256 "3d958e08555465e145bbd9f5d9954dd70377a5fb91892111e575a0a0111d50b8"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.15/floma-macos-arm64"
+      sha256 "cf516b5f563904e8006ffacf0e67df45213bfc6321a114dba17b5a160dc333bb"
     else
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.14/floma-macos-x86_64"
-      sha256 "a6d926e9ecb7c190caeda6ccec4f01dd2733f2b039f0a111d9d0ef6b8d7ea3ef"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.15/floma-macos-x86_64"
+      sha256 "aa2b6cf5c0c3be02a291afe603d2785f450c2a4793926b8b3dcd7df0ccc9f4e8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.14/floma-linux-arm64"
-      sha256 "5a0884216a96d63800f78f1356038f029a3634aa9f2d18223a33140a47e7d12a"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.15/floma-linux-arm64"
+      sha256 "e3f1d3cc0ff0dd062006387851a166ff63cb604d420cfa9897e008af68c0e7ad"
     else
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.14/floma-linux-x86_64"
-      sha256 "2db91ca6f6b8e8434562443703a593404d0ff95a706f573b24033aa095077609"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/0.3.15/floma-linux-x86_64"
+      sha256 "8efa48f3e7230d06e2642f15cc0153b0447a2663d0d8f42bef96623477600914"
     end
   end
 
