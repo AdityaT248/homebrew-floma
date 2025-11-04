@@ -6,21 +6,21 @@
 class Floma < Formula
   desc "AI-Powered Workflow Automation Tool - No Code Required"
   homepage "https://getfloma.com"
-  version "1.1.8"
+  version "1.1.9"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.8/floma-macos-arm64-1.1.8"
-      sha256 "d2657cb8eb8cb78bcb4f6d7b3232ea8bc4d280acd0e5dea6daf2b0428bc27af9"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.9/floma-macos-arm64-1.1.9"
+      sha256 "1b94012278702c8fda0ce492efd8412124c36086e6ded5f9b6d2d8b751953fb5"
     else
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.8/floma-macos-x86_64-1.1.8"
-      sha256 "c493565f8e26ebc6906a9d2cf8ab7502958d34fc6e0e71cbaa27ac223fdb7c22"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.9/floma-macos-x86_64-1.1.9"
+      sha256 "f2efef3e72ac9ca8f8e0b43d7d91d30c4e1c6ff4b0bd060448ffa67b6006484f"
     end
   end
 
   def install
-    bin.install "floma-macos-arm64-1.1.8" => "floma" if Hardware::CPU.arm?
-    bin.install "floma-macos-x86_64-1.1.8" => "floma" if Hardware::CPU.intel?
+    bin.install "floma-macos-arm64-1.1.9" => "floma" if Hardware::CPU.arm?
+    bin.install "floma-macos-x86_64-1.1.9" => "floma" if Hardware::CPU.intel?
   end
 
   test do
