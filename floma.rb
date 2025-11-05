@@ -10,10 +10,10 @@ class Floma < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-5a6b7cf38ae340a7943084f3b9ad4a42.r2.dev/v1.1.6/floma-1.1.6-macos-arm64"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.6/floma-1.1.6-macos-arm64"
       sha256 "3800544d2ec638397ab7daf3782992bd6a0334e86f7e2703005b62259b2e4900"
     else
-      url "https://pub-5a6b7cf38ae340a7943084f3b9ad4a42.r2.dev/v1.1.6/floma-1.1.6-macos-x86_64"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.6/floma-1.1.6-macos-x86_64"
       sha256 "7606cc7a37f15ceba49cf93571cd4e80b11d5bd9646b916ee43985e8419ff107"
     end
   end
