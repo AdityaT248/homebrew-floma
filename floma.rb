@@ -6,15 +6,15 @@
 class Floma < Formula
   desc "AI-Powered Workflow Automation Tool - No Code Required"
   homepage "https://getfloma.com"
-  version "1.1.4"
+  version "1.1.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/1.1.4/floma-macos-arm64"
-      sha256 "2833a3b79eee78671d48a5e03513ea8570ae79f064b468e784ba9c93541ca461"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.5/floma-macos-arm64"
+      sha256 "ee03037900e274b36f08cc21b40b0333eb47163058e14283a6d04f169505c468"
     else
-      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/1.1.4/floma-macos-x86_64"
-      sha256 "e460228cf67fdc973e1a3017142c306f6c78c8abe231d1f97419a13e676cd20d"
+      url "https://pub-3da12ce477ba4b969191f6514d7505ff.r2.dev/v1.1.5/floma-macos-x86_64"
+      sha256 "510b78d1ea0404188caac67323f3120d1d62b80ed96da428f9a8a52269810c11"
     end
   end
 
